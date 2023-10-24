@@ -1,0 +1,183 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     font-family: 'Montserrat', sans-serif;
+}
+
+header {
+     background-color: #f1f1f1;
+     padding: 10px;
+}
+   
+.logo {
+     font-family: 'Bebas Neue', sans-serif;
+     font-size: 36px;
+}
+
+.logo a {
+     text-decoration: none;
+     color: black;
+}
+   
+nav ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+   
+nav ul li {
+     display: inline;
+     margin-right: 10px;
+}
+   
+nav ul li a {
+     text-decoration: none;
+}
+   
+.banner {
+     background-image: url(assets/banner.jpg);
+     background-size: cover;
+     background-position: bottom;
+     padding: 200px;
+}
+ 
+#section-cat {
+     background-color: #000000;
+}
+ 
+ .filtros img {
+     height: 40px;
+     vertical-align: middle;
+}
+ 
+ .ordem img {
+     height: 40px;
+     vertical-align: middle;
+}
+ 
+ .nav-cat {
+     display: flex;
+     align-items: center;
+}
+ 
+ .nav-cat ul {
+     display: flex;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+ 
+ .nav-cat li {
+     display: flex;
+     align-items: center;
+     padding: 10px;
+     background-color: #000000;
+     color: white;
+     transition: background-color 0.3s;
+     margin-right: 5px;
+     cursor: pointer;
+}
+ 
+ .nav-cat li:last-child {
+     margin-right: 0;
+}
+ 
+ .nav-cat li:hover {
+     background-color: #292929;
+}
+
+.produtos {
+     background-color: white;
+}
+ 
+.produtos ul {
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-top: 20px;
+}
+ 
+.produtos li {
+     flex-basis: 300px;
+     padding: 20px;
+     text-align: center;
+}
+ 
+.produtos li a {
+     text-decoration: none;
+}
+ 
+.produtos li h3:hover {
+     text-decoration: underline;
+     cursor: pointer;
+}
+ 
+.produtos img {
+     height: 150px;
+}
+ 
+.produtos img:hover {
+     cursor: pointer;
+}
+ 
+.produtos h4 {
+     margin-top: 10px;
+     color: #000000;
+}
+ 
+.produtos h3 {
+     margin-top: 10px;
+     font-size: 14px;
+}
+ 
+.comprar {
+     background-color: #000000;
+     color: #ffffff;
+     padding: 8px;
+     border-radius: 10px;
+}
+ 
+.produtos div {
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+ 
+.ver-mais {
+     background-color: #000000;
+     color: #ffffff;
+     padding: 8px;
+     border-radius: 10px;
+     text-decoration: none;
+}
+   
+footer {
+     background-color: #f1f1f1;
+     padding: 10px;
+}
+   
+.footer-content ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+   
+.footer-content ul li {
+     display: inline;
+     margin-right: 10px;
+}
+   
+.footer-content ul li a {
+     text-decoration: none;
+}
+   
+.footer-bottom {
+     font-size: 12px;
+     color: #777;
+     text-align: center;
+     margin-top: 10px;
+}
